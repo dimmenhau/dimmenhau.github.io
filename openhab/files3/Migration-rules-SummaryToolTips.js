@@ -1,0 +1,1 @@
+﻿NDSummary.OnToolTipsLoaded("File3:Migration.rules",{3:"<div class=\"NDToolTip TSection LopenHABRules\"><div class=\"TTSummary\">[Text]</div></div>"});

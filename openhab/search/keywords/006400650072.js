@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("der",["File"],[["der",,[[,"[Name der Datei]",,,0,"File3:Migration.rules:[Name_der_Datei]"]]]]);

@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("[na",["File","Function"],[["[Name",,[[,"[Name der Datei]",,,0,"File3:Migration.rules:[Name_der_Datei]"],[,"[Name of Function]",,,1,"File3:Migration.rules:[Name_of_Function]"]]]]);
