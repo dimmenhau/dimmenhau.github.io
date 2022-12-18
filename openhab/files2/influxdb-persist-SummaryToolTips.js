@@ -1,0 +1,1 @@
+﻿NDSummary.OnToolTipsLoaded("File2:influxdb.persist",{35:"<div class=\"NDToolTip TSection LopenHABPersistence\"><div class=\"TTSummary\">[Text]</div></div>"});

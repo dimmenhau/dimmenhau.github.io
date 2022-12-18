@@ -1,0 +1,1 @@
+﻿NDSummary.OnToolTipsLoaded("File5:001_EGWZ.py",{11:"<div class=\"NDToolTip TSection LPython\"><div class=\"TTSummary\">[Text]</div></div>"});

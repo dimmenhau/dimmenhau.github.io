@@ -1,1 +1,1 @@
-﻿NDSummary.OnToolTipsLoaded("File:timeLinerPicker.items",{1:"<div class=\"NDToolTip TFile LopenHABItems\"><div class=\"TTSummary\">Group gTimepicker</div></div>"});
+﻿NDSummary.OnToolTipsLoaded("File:timeLinerPicker.items",{39:"<div class=\"NDToolTip TSection LopenHABItems\"><div class=\"TTSummary\">[Text]</div></div>"});

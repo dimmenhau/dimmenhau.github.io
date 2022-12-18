@@ -1,1 +1,1 @@
-﻿NDSearch.OnPrefixDataLoaded("[be",["Section"],[["[Beschreibung]",,[[,,,,0,"File3:Migration.rules:[Beschreibung]"]]]]);
+﻿NDSearch.OnPrefixDataLoaded("[be",["Section"],[["[Beschreibung]",,[[,,"openHAB Items",,0,"File:DataWarehouse.items:[Beschreibung]"],[,,"openHAB Persistence",,0,"File2:influxdb.persist:[Beschreibung]"],[,,"openHAB Rules",,0,"File3:Migration.rules:[Beschreibung]"],[,,"Python",,0,"File5:001_EGWZ.py:[Beschreibung]"]]]]);
