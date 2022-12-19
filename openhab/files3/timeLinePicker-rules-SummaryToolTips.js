@@ -1,1 +1,1 @@
-﻿NDSummary.OnToolTipsLoaded("File3:timeLinePicker.rules",{27:"<div class=\"NDToolTip TSection LopenHABRules\"><div class=\"TTSummary\">[Text]</div></div>"});
+﻿NDSummary.OnToolTipsLoaded("File3:timeLinePicker.rules",{25:"<div class=\"NDToolTip TSection LopenHABRules\"><div class=\"TTSummary\">[Text]</div></div>"});
