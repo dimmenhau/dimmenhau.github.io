@@ -1,0 +1,1 @@
+﻿NDFramePage.OnPageTitleLoaded("File4:gblCustomLib.py","gblCustomLib.py");NDSummary.OnSummaryLoaded("File4:gblCustomLib.py",[["Python","Python"]],[["Functions","Function"],["Groups","Group"]],[[6,0,1,"Functions","Functions"],[54,0,0,"_setLogging()","_setLogging"],[55,0,0,"_Temperatur2Float()","_Temperatur2Float"]]);
