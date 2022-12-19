@@ -1,1 +1,1 @@
-﻿NDSearch.OnPrefixIndexLoaded(["[be","[na","dat","der","fun","of"]);
+﻿NDSearch.OnPrefixIndexLoaded(["003","[be","[na","dat","der","fun","of","py"]);
