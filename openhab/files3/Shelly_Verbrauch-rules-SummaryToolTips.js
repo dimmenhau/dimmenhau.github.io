@@ -1,1 +1,1 @@
-﻿NDSummary.OnToolTipsLoaded("File3:Shelly_Verbrauch.rules",{23:"<div class=\"NDToolTip TSection LopenHABRules\"><div class=\"TTSummary\">[Text]</div></div>"});
+﻿NDSummary.OnToolTipsLoaded("File3:Shelly_Verbrauch.rules",{25:"<div class=\"NDToolTip TSection LopenHABRules\"><div class=\"TTSummary\">[Text]</div></div>"});

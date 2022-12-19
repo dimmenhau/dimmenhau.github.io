@@ -1,1 +1,1 @@
-﻿NDSummary.OnToolTipsLoaded("File3:MQTTLandisE220_Verbrauch.rules",{19:"<div class=\"NDToolTip TSection LopenHABRules\"><div class=\"TTSummary\">[Text]</div></div>"});
+﻿NDSummary.OnToolTipsLoaded("File3:MQTTLandisE220_Verbrauch.rules",{21:"<div class=\"NDToolTip TSection LopenHABRules\"><div class=\"TTSummary\">[Text]</div></div>"});
