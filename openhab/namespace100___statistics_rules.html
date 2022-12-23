@@ -120,9 +120,36 @@ Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="100___statistics_rules_8py_source.html#l00017">17</a> of file <a class="el" href="100___statistics_rules_8py_source.html">100_StatisticsRules.py</a>.</p>
-
+<div class="fragment"><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="keyword">def </span><a class="code" href="namespace100___statistics_rules.html#a7daafd07810fe0d884ec5906968f11d5">_getItem</a>(vItem):</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;  log = <a class="code" href="namespace100___statistics_rules.html#ac67ba7d6d181237f6b1d36df3eedc5af">_setLogging</a>(<span class="stringliteral">&#39;_getItem(vItem)&#39;</span>)</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;  item = itemRegistry.getItem(vItem)</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;  <span class="keywordflow">if</span> item <span class="keywordflow">is</span> <span class="keywordtype">None</span>:</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    <span class="keywordflow">raise</span> NotInitialisedException(<span class="stringliteral">u&quot;Item {} not found&quot;</span>.format(vItem))</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;  <span class="keywordflow">return</span> item</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160; </div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160; </div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="comment"># @rule(&quot;Jython StatisticsRule_Hour&quot;, description=&quot;&quot;, tags=[&quot;&quot;])</span></div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="comment"># @when(&quot;Time cron 0/10 * * * * ?&quot;)</span></div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="comment"># def CRON_StatisticsRule_Hour(event):</span></div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="comment">#   log = _setLogging(&#39;CRON_StatisticsRule_Hour(...)&#39;)</span></div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="comment">#   log.info( &quot; --&gt; Event: {}&quot;.format(event) )</span></div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160; </div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="comment">#   valBezug = _getItem(&#39;MQTTLandisE220_ZahlerstandBezug10180&#39;).state</span></div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="comment">#   valVerbrauch = _getItem(&#39;MQTTLandisE220_ZahlerstandLieferung10280&#39;).state</span></div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="comment">#   log.info(&quot;Bezug: {}&quot;.format(valBezug))</span></div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="comment">#   log.info(&quot;Verbrauch: {}&quot;.format(valVerbrauch))  </span></div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160; </div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;  <span class="comment"># valBezugStd = valBezug.deltaSince(now.minusHours(1))</span></div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;  <span class="comment"># valVerbrauchStd = valVerbrauch.deltaSince(now.minusHours(1))</span></div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;  <span class="comment"># log.info(&quot;Std. Bezug: {}&quot;.format(valBezugStd))</span></div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;  <span class="comment"># log.info(&quot;Std. Verbrauch: {}&quot;.format(valVerbrauchStd))  </span></div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160; </div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;  <span class="comment"># events.postUpdate(_getItem(&#39;MQTTLandisE220_Bezug_Stunde&#39;), </span></div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <span class="comment"># MQTTLandisE220_Bezug_Stunde.postUpdate(</span></div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    <span class="comment">#   MQTTLandisE220_ZahlerstandBezug10180.deltaSince(now.minusHours(1)).floatValue)</span></div>
+<div class="ttc" id="anamespace100___statistics_rules_html_a7daafd07810fe0d884ec5906968f11d5"><div class="ttname"><a href="namespace100___statistics_rules.html#a7daafd07810fe0d884ec5906968f11d5">100_StatisticsRules._getItem</a></div><div class="ttdeci">def _getItem(vItem)</div><div class="ttdef"><b>Definition:</b> 100_StatisticsRules.py:17</div></div>
+<div class="ttc" id="anamespace100___statistics_rules_html_ac67ba7d6d181237f6b1d36df3eedc5af"><div class="ttname"><a href="namespace100___statistics_rules.html#ac67ba7d6d181237f6b1d36df3eedc5af">100_StatisticsRules._setLogging</a></div><div class="ttdeci">def _setLogging(sFunctionName)</div><div class="ttdef"><b>Definition:</b> 100_StatisticsRules.py:13</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ac67ba7d6d181237f6b1d36df3eedc5af"></a>
@@ -148,9 +175,11 @@ Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="100___statistics_rules_8py_source.html#l00013">13</a> of file <a class="el" href="100___statistics_rules_8py_source.html">100_StatisticsRules.py</a>.</p>
-
+<div class="fragment"><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="keyword">def </span><a class="code" href="namespace100___statistics_rules.html#ac67ba7d6d181237f6b1d36df3eedc5af">_setLogging</a>(sFunctionName):</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    log = logging.getLogger(<span class="stringliteral">&quot;{}&quot;</span>.format(LOG_PREFIX) + <span class="stringliteral">&quot;.{}&quot;</span>.format(sFunctionName))</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    <span class="keywordflow">return</span> log</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160; </div>
+</div><!-- fragment -->
 </div>
 </div>
 </div><!-- contents -->
@@ -159,7 +188,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace100___statistics_rules.html">100_StatisticsRules</a></li>
-    <li class="footer">Generated on Fri Dec 23 2022 15:40:03 for My Project by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Fri Dec 23 2022 16:14:17 for My Project by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>
