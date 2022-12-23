@@ -1,1 +1,0 @@
-﻿NDSearch.OnPrefixDataLoaded("_te",["Function"],[["_Temperatur2Float",,[[,,,,0,"File4:gblCustomLib.py:_Temperatur2Float"]]]]);

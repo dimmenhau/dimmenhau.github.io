@@ -1,1 +1,0 @@
-﻿NDSummary.OnToolTipsLoaded("File:ProgVariables.items",{53:"<div class=\"NDToolTip TSection LopenHABItems\"><div class=\"TTSummary\">[Text]</div></div>"});
