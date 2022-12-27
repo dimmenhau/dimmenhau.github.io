@@ -31,7 +31,6 @@ var NAVTREE =
         [ "fsjflfdjld", "index.html#autotoc_md13", null ]
       ] ]
     ] ],
-    [ "Bug List", "bug.html", null ],
     [ "Packages", "namespaces.html", [
       [ "Packages", "namespaces.html", "namespaces_dup" ],
       [ "Package Functions", "namespacemembers.html", [
